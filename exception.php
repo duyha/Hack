@@ -12,7 +12,7 @@ class Student implements User {
     private string $school
   ) {}
 	
-	function getName(): string {
+	public function getName(): string {
 		return $this->name;
 	}
 }
